@@ -255,8 +255,8 @@ h2 {
 **************************/
 
 #explore {
-  /*background-color: #C34C39;
-  background-image: url("../images/event-bg.jpg");*/
+  background-color: #E6E6E6;
+  background-image: url("../images/fondovideo.jpg");
   background-position: center bottom;
   background-size: contain;
   background-repeat:no-repeat;
@@ -757,4 +757,7 @@ h2 {
   color:#51C3DB
 }
 
+.grid_6 {
+    width: 210%; 
+}
 
