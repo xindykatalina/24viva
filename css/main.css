@@ -772,6 +772,7 @@ h2 {
 }
 
  #lista1 ul { 
+  float: right;
     list-style:none; 
 }
 
@@ -784,7 +785,7 @@ h2 {
     display:block; 
     width:300px; 
     height:28px; 
-    background-color:#333; 
+    background-color:#235182; 
     border-left:5px solid #222; 
     border-right:5px solid #222; 
     padding-left:10px;
@@ -815,7 +816,7 @@ h2 {
     position: relative;
     color: white;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
-    background-color: #111111;
+    background-color: #235182;
     margin-bottom: 10px;
     border-right: 10px solid #888888;
     padding: 5px 20px;
