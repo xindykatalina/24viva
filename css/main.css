@@ -471,7 +471,6 @@ h2 {
 .guitar2 {
   top: 0;
   width: 30%;
-  padding-top: 70px;
 }
 
 .guitar2 img {
@@ -800,4 +799,44 @@ h2 {
     -webkit-box-shadow:10px 10px 20px #000000;
     transform:rotate(4deg); box-shadow:10px 10px 20px #000000; 
     margin-left: 10px;
+}
+
+ 
+.sidebar {
+    float: right;
+    width: 300px;
+    border-top: 0;
+    padding-top: 20px;
+}
+
+
+
+.sidebar .widget_title {
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #111111;
+    margin-bottom: 10px;
+    border-right: 10px solid #888888;
+    padding: 5px 20px;
+}
+
+.widget_title:before {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    content: '';
+    border: 10px solid transparent;
+    border-right-width: 0;
+    border-left-color: white;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
 }
