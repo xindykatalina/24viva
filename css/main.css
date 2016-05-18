@@ -9,7 +9,7 @@
 body {
   font-family: 'Dosis', sans-serif;
   font-size: 17px;
-  color: #fff
+  
 }
 
 
@@ -255,8 +255,8 @@ h2 {
 **************************/
 
 #explore {
-  background-color: #E6E6E6;
-  background-image: url("../images/fondovideo.jpg");
+  background-color: #C34C39;
+  background-image: url("../images/event-bg.jpg");
   background-position: center bottom;
   background-size: contain;
   background-repeat:no-repeat;
@@ -462,7 +462,7 @@ h2 {
 **************************/
 
 #about {
-  background-color: #75B46E;  
+  background-color: #DDDDDD;  
   position: relative;  
   width: 100%;
   display: flex;
@@ -470,7 +470,8 @@ h2 {
 
 .guitar2 {
   top: 0;
-  width: 50%;
+  width: 30%;
+  padding-top: 70px;
 }
 
 .guitar2 img {
@@ -478,12 +479,12 @@ h2 {
 }
 
 .about-content {
-  width: 50%;
-   background-image: url("../images/about-bg.jpg");
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 70px 70px 110px;
+  width: 70%;
+    /* background-image: url("../images/about-bg.jpg"); */
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 37px 29px 110px;
 }
 
 
@@ -761,3 +762,42 @@ h2 {
     width: 210%; 
 }
 
+.box-blue {
+  margin: 72px 45px 88px;
+  overflow: hidden;
+  padding: 98px;
+  background-color: #F0F0F0;
+  border: 1px solid #999;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+ #lista1 ul { 
+    list-style:none; 
+}
+
+#lista1 ul li { 
+    font-family:Georgia,serif,Times; 
+    font-size:18px; 
+}
+
+#lista1 ul li a { 
+    display:block; 
+    width:300px; 
+    height:28px; 
+    background-color:#333; 
+    border-left:5px solid #222; 
+    border-right:5px solid #222; 
+    padding-left:10px;
+    text-decoration:none; 
+    color:#bfe1f1; 
+}
+
+#lista1 ul li a:hover { 
+    -moz-transform:rotate(-5deg); 
+    -moz-box-shadow:10px 10px 20px #000000;
+    -webkit-transform:rotate(-5deg); 
+    -webkit-box-shadow:10px 10px 20px #000000;
+    transform:rotate(4deg); box-shadow:10px 10px 20px #000000; 
+    margin-left: 10px;
+}
